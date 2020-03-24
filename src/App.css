@@ -1,0 +1,63 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.pic-top-heart{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top:10px;
+  border-radius: 50%;
+  line-height: center;
+  text-align: center;
+}
+.pic-top-image {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top:10px;
+  left:15px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  line-height: center;
+}
+.pic-top-bag {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  right: 20px;
+  top: 50px;
+  border-radius: 50%;
+  line-height: center;
+  text-align: center;
+}
+.colorPicker {
+  width:15px;
+  height:15px;
+  background-color: blue;
+  border-radius: 50%;
+  margin-right: 5px;
+}
