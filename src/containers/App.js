@@ -4,7 +4,7 @@ import {Card,Container,Col,Row,Form,Button } from 'react-bootstrap'
 import { getNews,} from '../redux/actions/news';
 
 
-
+// search function
 function getSearchNews(search) {
     console.log(search,"inside")
     return state => {
